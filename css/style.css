@@ -1,0 +1,125 @@
+body{
+    background-color: #FBF9FF !important;
+}
+
+a{
+    color: #FFFFFF !important;
+}
+
+#menu{
+    height: 44px;
+    float: inherit !important;
+    clear: both;
+    margin: 20px 10px 10px 10px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul li{
+    float: left;
+    margin: 13px 5px 5px 0px;
+}
+
+#menu ul li a{
+    font-size: 14px;
+    color:  #838383 !important;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+#menu ul li a:hover{
+    color: #2A2A2A !important;
+}
+
+.required, .error{
+    color: #BE0000;
+}
+
+#submit{
+    float: right;
+    margin: 10px 5px;
+}
+
+.addContactOK, .addContactFail, .excludeContactByIdOK, .excludeContactByIdFail{
+    margin-left: 4%;    
+    padding: 7px;
+}
+
+.addContactOK, .excludeContactByIdOK{
+    color: #089C14;
+    background-color: #B7EFB0;    
+}
+
+.addContactFail, .excludeContactByIdFail{
+    color: #BE0000;
+    background-color: #FFBCBC; 
+}
+
+#btnAddContact{
+    float: right;
+    margin: 10px 5px;
+}
+
+#divListContatcLeft, #divListContatcRight, #divFormLineLeft, #divFormLineRight {
+    padding-top: 8px;
+}
+
+#divListContatcLeft input, textarea{
+    padding: 0 0 0 5px;
+    width: 100%;
+    border-width: 0;
+}
+
+#divListContatcRight input, textarea{
+    padding: 0 0 0 5px;
+    width: 100%;
+    border-width: 0;
+}
+
+#divFormLineLeft input, textarea{
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+#divFormLineRight input, textarea{
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+.ĺistWrapper {
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.ĺistWrapper .contactLine{
+    margin: 4px;
+    border: 1px #000000 solid;
+    display: inline-table;
+    background-color: #4A6175;
+}
+
+#divFormWrapper{
+    background-color: #EDEF9B;
+    border: 1px #000000 solid;  
+}
+
+.contactLine{
+    margin: 15px 0;
+}
+
+#notes{
+    border-width: 1px;
+}
+
+.top{
+    float: right;
+}
+
+.spanEmail{
+    min-height: 20px;
+    display: table;
+}
